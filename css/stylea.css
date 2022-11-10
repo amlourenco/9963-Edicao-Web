@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(211, 186, 156);
+    font-family: 'Courier New', monospace, sans-serif;
+    font-size: 1em;
+}
+
+h2{
+    font-size: 2em;
+}
+.cx1{
+    width: 300px;
+    height: 100px;
+    background-color: cornsilk;
+    border-color: darkblue;
+    border-width: 10px;
+    border-style: double;
+    /* border: 7px, rgb(45, 158, 41); !this is a way to reduce code for the border!*/
+    outline-color: blueviolet;
+    outline-style: dotted;
+    outline-width: 10px;
+    margin: 30px;
+}

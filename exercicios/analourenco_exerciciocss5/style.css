@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;}
+.google{
+    font-family: 'Pacifico', cursive;    
+    font-size:18pt;}
+.local{
+    font-family: 'dangernight';
+    font-size:26pt;}
+
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+
+@font-face {
+    font-family: 'dangernight';
+    src: url('dangernight.otf') format('opentype');
+    src: url('dangernight.ttf') format('truetype');}

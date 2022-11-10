@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 c/ listas</title>
+</head>
+
+<body>
+    <h1>Meus emojis favoritos</h1>
+    <h2> Carinhas</h2>
+    <ul>
+        <li>&#x1F913; Código U+1F913</li>
+        <li>&#x1F92F; Código U+1F92F</li>
+        <li>&#x1F976; Código U+1F976</li> 
+            <h3>Carinhas mas de gato 🙀</h3> <!--é uma lista dentro de uma lista-->
+            <ul type="square"> <!--a tag "type" permite formatar, neste caso, o formato da bullet. isto é obsoleto uma vez que agora tudo o que é formatação é feito com o CSS-->
+                <li>😿</li>
+                <li>😸</li>
+                <li>😻</li>
+            </ul>
+    </ul>
+    <h2>Mãos</h2>
+    <ul id="atributo" style="list-style-type: square;"> <!--** style="valor: css style; css style;" ** é assim que se definem formatações através de CSS-->
+        <li>&#x1F596; Código U+1F596</li> 
+        <li>&#x1F91D; Código U+1F91D</li> 
+        <li>&#x1F44D; Código U+1F44D</li>
+    </ul>
+    <h2>Animais</h2>
+    <ol> <!--isto é uma lista ordenada/numerada-->
+        <li>&#x1F431; Código U+1F431</li>
+        <li>&#x1F436; Código U+1F436</li>
+        <li>&#x1F981; Código U+1F981</li>
+        <ol start="7" style="list-style-type: lower-roman;"> <!--um OL dentro de um OL não cria numeração contínua (1.1), volta ao 1-->
+            <li>&#x1F431; Código U+1F431</li>
+            <li>&#x1F436; Código U+1F436</li>
+            <li>&#x1F981; Código U+1F981</li>
+        </ol>
+    </ol>
+</body>
+
+</html>

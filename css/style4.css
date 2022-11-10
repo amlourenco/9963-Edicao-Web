@@ -1,0 +1,31 @@
+h1,h2{font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    background-image:url(https://www.beamdog.com/media/images/2Artboard_1_JDoJDKu.height-160.png), url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg);
+    background-size: 200px, cover;
+    background-position: right top, center;
+    background-repeat: no-repeat, repeat;
+}
+
+#titulo{
+    color: red;
+    text-shadow: 5px 5px 5px rgb(37, 182, 24);
+    font-weight: bold;
+}
+.t1{
+    color: blue;
+    text-decoration: underline;
+    text-indent: 5px;
+}
+.t2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+#body{
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#space{
+    line-height: 50px;
+}
