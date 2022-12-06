@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.12 Ana Lourenço</title>
+    <style>
+        #titulo {
+            background-color: darkgoldenrod;
+            padding: 3px;
+            font-weight: normal;
+        }
+
+        #subtitulo {
+            font-size: 14pt;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="titulo">SISTEMA DE GESTÃO ACADÉMICA</p>
+
+    <p id="subtitulo">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</p>
+
+    <p>
+        <label for="login">Login </label>
+        <input type="login" name="login" id="login">
+    </p>
+    <p>
+        <label for="pass">Password </label>
+        <input type="password" name="pass" id="pass">
+    </p>
+    <p>
+        <label for="status">Status </label>
+        <select name="status" id="status">
+            <option value="Inativo">Inativo</option>
+            <option value="Ativo">Ativo</option>
+        </select>
+    </p>
+
+    <p>
+        Tipo
+        <input type="radio" id="tipo" name="tipo">
+        <label for="tipo">Técnico</label>
+        <input type="radio" id="tipo" name="tipo">
+        <label for="tipo">Professor</label>
+        <input type="radio" id="tipo" name="tipo">
+        <label for="tipo">Aluno</label>
+    </p>
+
+    <p>
+        <label for="data">Data Criação </label>
+        <input type="date" name="data" id="data">
+    </p>
+    <p>
+        Perfil
+        <input type="radio" id="perfil" name="perfil">
+        <label for="pefil">Convidado</label>
+        <input type="radio" id="perfil" name="perfil">
+        <label for="perfil">Administrador</label>
+    </p>
+
+    <p>
+        <label for="mensagem">Observações</label><br>
+        <text areaname="mensagem" id="mensagem" cols="30" rows="10"> </textarea>
+    </p>
+
+    <p>
+        Módulos
+        <input type="checkbox" id="compras" name="compras">
+        <label for="compras">Compras</label>
+        <input type="checkbox" id="biblioteca" name="biblioteca">
+        <label for="biblioteca">Biblioteca</label>
+        <input type="checkbox" id="académico" name="académico">
+        <label for="académico">Académico</label>
+    </p>
+</body>
+
+</html>
