@@ -8,38 +8,43 @@
     <title>Ex.11 Ana Lourenço</title>
     <style>
         body {
-            position: relative;
-            height: 98vh;
             background-image: url('madeira.jpg');
+            height: 100vh;
+            margin: 0px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center, center;
         }
 
-        .iphone {
+        main {
+            position: absolute;
             background-image: url(iphone.png);
-            position: relative;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat;            
+            height: 80vh;
+            width: calc(80vh/2.0160);
             background-position: center, center;
-            height: 100%;
-            width: 100%;
             overflow: hidden;
+            background-size: cover;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
-        .screen {
-            position: absolute;
-            top: auto;
-            left: auto;
+        iframe {
+            position: relative;
+            height:  61vh;
+            width: calc(61vh / 1.8);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 
 <body>
-    <div class="iphone">
-        <div class="screen">
-            <iframe src="https://industriacriativa.pt/amlourenco" width="263px" height="468px" frameborder="0"></iframe>
-        </div>
-    </div>
+    <main>
+        <iframe src="https://industriacriativa.pt/amlourenco" width="263px" height="468px" frameborder="0"></iframe>
+    </main>
 </body>
 
 </html>
